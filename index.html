@@ -17,42 +17,45 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <nav id="menu" class="hidden">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li>
-                    <a href="/about/" class="Label">About us</a>
-                    <ul>
-                        <li><a href="/about/history/">History</a></li>
-                        <li><a href="/about/team/">The team</a></li>
-                        <li><a href="/about/address/">Our address</a></li>
-                    </ul>
-                </li>
-                <li><a href="/contact/">Contact</a></li>
-            </ul>
-        </nav>
-
         <div id="page">
             <div class="container">
-                <header class="main">
-                    <h1 class="site-title visuallyhidden">We Like That Sound</h1>
-                    <p class="site-description visuallyhidden">A blog about music</p>
-                    <img src="assets/images/logo.svg" alt="Blog title" class="logo"/>
+                <header class="site-header">
+                    <h1>Picky</h1>
+                    <p class="tagline">A responsive scaffold project.</p>
                     <nav class="burger">
                         <a href="#menu" id="open-menu" class="ir">Open the menu</a>
                         <a href="#page" id="close-menu" class="ir hidden">Close the menu</a>
                     </nav>
                 </header>
-                <div id="content">
-                    [content]
+                <nav id="menu" class="hidden">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li>
+                            <a href="/about/" class="Label">About us</a>
+                            <ul>
+                                <li><a href="/about/history/">History</a></li>
+                                <li><a href="/about/team/">The team</a></li>
+                                <li><a href="/about/address/">Our address</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <p>This scaffold uses the <a href="http://wurfl.io/">WURFL.js</a> device detection script to only load certain elements as they are required.</p>
+                    <p>For instance, if older versions of IE are also required to support responsive layouts, then respond.js is loaded.</p>
+                    <p>Another example is excluding a social media widgets from mobile devices and including them on larger screens.</p>
+                    <p>This is experimental so use with caution. Older methods of selective loading may be better for some projects.</p>
                 </div>
-                <footer>
-                    [footer]
+                <footer class="site-footer">
+                    Picky. A responsive scaffold project.
                 </footer>
             </div>
         </div>
 
         <script src="assets/scripts/jquery.js"></script>
+
+        <script src="assets/scripts/vendor/yepnope.js"></script>
 
         <script src="assets/scripts/vendor.js"></script>
 
