@@ -17,6 +17,7 @@ This project is built with Yeoman and includes the following:
 - Respond.js
 - WURFL
 - HTML5 Boilerplate
+- Girder
 
 ### Optional Dependencies
 
