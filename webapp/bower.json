@@ -8,7 +8,8 @@
     "html5-boilerplate": "~4.3.0",
     "jquery-mmenu": "~4.0.3",
     "respond": "~1.4.2",
-    "yepnope": "~1.5.4"
+    "yepnope": "~1.5.4",
+    "font-awesome": "~4.1.0"
   },
   "devDependencies": {}
 }
