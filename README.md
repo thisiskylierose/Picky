@@ -23,6 +23,14 @@ This project is built with Yeoman and includes the following:
 - Bootstrap (Sass Official)
 - Font Awesome
 
-## Contact
+## Author
 
-If you have some feedback, send an email to: thisiskylierose@gmail.com.
+- Email: thisiskylierose@gmail.com
+- Twitter: [http://twitter.com/thisiskylierose](https://twitter.com/thisiskylierose)
+- GitHub: [http://github.com/thisiskylierose](http://github.com/thisiskylierose)
+
+If you have some feedback, please send me an email.
+
+## Build instructions
+
+Coming soon. 
