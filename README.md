@@ -11,17 +11,18 @@ This scaffold uses the [WURFL.js](http://wurfl.io/) device detection script to o
 
 This project is built with Yeoman and includes the following:
 
-- jQuery
-- Modernizr
-- Yepnope
-- Respond.js
-- WURFL
-- HTML5 Boilerplate
+- [jQuery](https://github.com/jquery/jquery)
+- [Modernizr](https://github.com/Modernizr/Modernizr)
+- [Yepnope](https://github.com/SlexAxton/yepnope.js)
+- [Respond.js](https://github.com/scottjehl/Respond)
+- [WURFL.js](http://wurfl.io/)
+- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
+- [Girder](http://comfypixel.com/Girder/)
 
 ### Optional Dependencies
 
-- Bootstrap (Sass Official)
-- Font Awesome
+- [Bootstrap (Sass Official)](https://github.com/twbs/bootstrap-sass)
+- [Font Awesome](http://fontawesome.io)
 
 ## Author
 

@@ -9,7 +9,8 @@
     "jquery-mmenu": "~4.0.3",
     "respond": "~1.4.2",
     "yepnope": "~1.5.4",
-    "font-awesome": "~4.1.0"
+    "font-awesome": "~4.1.0",
+    "girder": "~0.9.8"
   },
   "devDependencies": {}
 }
