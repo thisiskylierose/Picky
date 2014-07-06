@@ -11,4 +11,4 @@ Another example is excluding a social media widgets from mobile devices and incl
 
 This is experimental so use with caution. Older methods of selective loading may be better for some projects.
 
-If you have some feedback, send an email to: (thisiskylierose@gmail.com)[mailto:thisiskylierose@gmail.com].
+If you have some feedback, send an email to: mailto:thisiskylierose@gmail.com.
