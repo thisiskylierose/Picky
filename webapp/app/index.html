@@ -7,9 +7,22 @@
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="favicon.ico">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="assets/styles/vendor.css"/>
-        <link rel="stylesheet" href="assets/styles/main.css"/>
-        <script src="assets/scripts/vendor/modernizr.js"></script>
+        <!-- build:css assets/styles/vendor.css -->
+        <link rel="stylesheet" href="../bower_components/html5-boilerplate/css/normalize.css">
+        <link rel="stylesheet" href="../bower_components/html5-boilerplate/css/main.css">
+        <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.css" />
+        <link rel="stylesheet" href="../bower_components/girder/girder.css"/>
+        <link rel="stylesheet" href="../bower_components/jquery-mmenu/source/jquery.mmenu.css">
+        <!-- bower:css -->
+
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css(.tmp) assets/styles/main.css -->
+        <link rel="stylesheet" href="assets/styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js assets/scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
 
     </head>
     <body>
@@ -83,13 +96,26 @@
             </div>
         </div>
 
-        <script src="assets/scripts/jquery.js"></script>
+        <!-- build:js assets/scripts/jquery.js -->
+        <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <!-- endbuild -->
 
-        <script src="assets/scripts/vendor/yepnope.js"></script>
+        <!-- build:js assets/scripts/vendor/yepnope.js -->
+        <script src="../bower_components/yepnope/yepnope.js"></script>
+        <script src="../bower_components/yepnope/plugins/yepnope.css.js"></script>
+        <!-- endbuild -->
 
-        <script src="assets/scripts/vendor.js"></script>
+        <!-- build:js assets/scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery-mmenu/source/jquery.mmenu.js"></script>
+        <script src="../bower_components/respond/dest/respond.src.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
 
+        <!-- build:js({app,.tmp}) assets/scripts/main.js -->
+        <script src="../bower_components/html5-boilerplate/js/plugins.js"></script>
         <script src="assets/scripts/main.js"></script>
+        <!-- endbuild -->
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

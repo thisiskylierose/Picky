@@ -84,16 +84,15 @@ body {
 }
 /* line 93, ../../../app/assets/styles/main.scss */
 .site-content a:active {
-  color: #749de5;
+    color: #749de5;
 }
 
-/* line 98, ../../../app/assets/styles/main.scss */
-.site-asides {
-  background: yellow;
-  padding-top: 400px;
+/* line 99, ../../../app/assets/styles/main.scss */
+.site-asides .fb-like-box {
+    margin-top: 10px;
 }
 
-/* line 103, ../../../app/assets/styles/main.scss */
+/* line 104, ../../../app/assets/styles/main.scss */
 .site-footer {
   color: #777777;
   padding: 10px 10px 20px;

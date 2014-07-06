@@ -1,0 +1,107 @@
+// bower:scss
+//@import "../../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+//@import "../../../bower_components/girder/scss/girder.scss";
+// endbower
+
+/* ========================================== */
+/*                 Picky styles               */
+/* ========================================== */
+
+$body: #eeeeee;
+$text: #444444;
+$link: #2663cd;
+
+body {
+  background: $body;
+  color: $text;
+}
+
+// header
+
+.site-header {
+  padding: 20px 10px 10px;
+  position: relative;
+
+  h1 {
+    color: darken($text, 5);
+    font-size: 3em;
+    margin: 10px 0;
+    padding-top: 10px;
+  }
+
+  .logo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .burger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    a {
+      color: $link;
+      font-size: 2em;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      text-decoration: none;
+    }
+
+    #open-menu {
+      color: $link;
+      &:hover {
+        color: lighten($link, 20);
+      }
+    }
+
+    #close-menu {
+      color: lighten($link, 20);
+      &:hover {
+        color: lighten($link, 10);
+      }
+    }
+  }
+}
+
+.site-menu {
+  a {
+    font-size: 1.3em;
+  }
+}
+
+.site-content {
+  border-top: 1px solid lighten($text, 20);
+  border-bottom: 1px solid lighten($text, 20);
+  font-size: 1.3em;
+  padding: 20px 10px 10px;
+
+  h2, h3 {
+    color: darken($text, 5);
+    margin-top: 0;
+  }
+
+  a:link,
+  a:visited {
+    color: $link;
+  }
+
+  a:hover {
+    color: darken($link, 10);
+  }
+
+  a:active {
+    color: lighten($link, 20);
+  }
+}
+
+.site-asides {
+  .fb-like-box {
+    margin-top: 10px;
+  }
+}
+
+.site-footer {
+  color: lighten($text, 20);
+  padding: 10px 10px 20px;
+}
