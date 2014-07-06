@@ -1,0 +1,50 @@
+/* line 7, ../../../app/assets/styles/main.scss */
+body {
+  background: #111111;
+  color: #e5e5e5;
+}
+
+/* line 16, ../../../app/assets/styles/main.scss */
+.site-header {
+  padding: 20px 0 10px;
+  position: relative;
+}
+/* line 20, ../../../app/assets/styles/main.scss */
+.site-header .logo {
+  width: 140px;
+  height: 140px;
+}
+/* line 25, ../../../app/assets/styles/main.scss */
+.site-header .burger {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 30, ../../../app/assets/styles/main.scss */
+.site-header .burger a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+/* line 36, ../../../app/assets/styles/main.scss */
+.site-header .burger #open-menu {
+  background: pink;
+}
+/* line 40, ../../../app/assets/styles/main.scss */
+.site-header .burger #close-menu {
+  background: yellow;
+}
+
+/* line 46, ../../../app/assets/styles/main.scss */
+.content {
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  font-size: 130%;
+  padding: 20px 0 10px;
+}
+
+/* line 53, ../../../app/assets/styles/main.scss */
+.site-footer {
+  color: #b2b2b2;
+  padding: 10px 0 20px;
+}
