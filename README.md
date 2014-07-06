@@ -33,4 +33,4 @@ If you have some feedback, please send me an email.
 
 ## Build instructions
 
-Coming soon. 
+Coming soon.
