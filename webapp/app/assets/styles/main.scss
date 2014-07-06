@@ -1,0 +1,72 @@
+// bower:scss
+// endbower
+
+$body: #111111;
+$text: #e5e5e5;
+$link: #9ACD32;
+
+body {
+  background: $body;
+  color: $text;
+}
+
+// header
+
+.site-header {
+  padding: 20px 10px 10px;
+  position: relative;
+
+  h1 {
+    padding-top: 10px;
+  }
+
+  .logo {
+    width: 140px;
+    height: 140px;
+  }
+
+  .burger {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    a {
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+    }
+
+    #open-menu {
+      background: pink;
+    }
+
+    #close-menu {
+      background: yellow;
+    }
+  }
+}
+
+.content {
+  border-top: 1px solid darken($text, 50);
+  border-bottom: 1px solid darken($text, 50);
+  font-size: 130%;
+  padding: 20px 10px 10px;
+
+  a:link,
+  a:visited {
+    color: $link;
+  }
+
+  a:hover {
+    color: darken($link, 10);
+  }
+
+  a:active {
+    color: lighten($link, 20);
+  }
+}
+
+.site-footer {
+  color: darken($text, 20);
+  padding: 10px 10px 20px;
+}
