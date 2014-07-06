@@ -121,6 +121,8 @@ module.exports = function (grunt) {
                         '.tmp',
                         '<%= config.dist %>/*',
                         '!<%= config.dist %>/.git*',
+                        '!<%= config.dist %>/LICENSE',
+                        '!<%= config.dist %>/README.md',
                         '!<%= config.dist %>/*.json',
                         '!<%= config.dist %>/webapp',
                         '!<%= config.dist %>/webapp/*'
