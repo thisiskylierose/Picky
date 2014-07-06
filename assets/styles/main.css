@@ -1,66 +1,214 @@
-/* line 8, ../../../app/assets/styles/main.scss */
+/* ========================================== */
+/*   Girder is a Sassy layout helper     /// */
+/*   https://github.com/unmaya/Girder   /// */
+/* ======================================= */
+/* line 17, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+*, *:before, *:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 25, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.container, .row {
+  margin: 0 auto;
+  max-width: none;
+}
+
+/* line 116, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.row {
+  clear: both;
+  display: block;
+  *zoom: 1;
+}
+/* line 167, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.row:after {
+  clear: both;
+}
+/* line 169, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.row:before, .row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+/* line 182, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.row .row > :first-of-type {
+  padding-left: 0;
+}
+/* line 183, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.row .row > :last-child {
+  padding-right: 0;
+}
+/* line 187, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.row.equal-units > :first-of-type {
+  padding-left: 0.625em !important;
+}
+/* line 188, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.row.equal-units > :last-child {
+  padding-right: 0.625em !important;
+}
+
+/* line 241, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.push-one,
+.push-two,
+.push-three,
+.push-four {
+  position: relative;
+}
+
+/* line 245, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.push-one {
+  left: 12.7%;
+}
+
+/* line 246, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.push-two {
+  left: 25.2%;
+}
+
+/* line 247, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.push-three {
+  left: 37.7%;
+}
+
+/* line 248, ../../../bower_components/girder/scss/girder_modules/_girder_base.scss */
+.push-four {
+  left: 50.2%;
+}
+
+/* line 93, ../../../bower_components/girder/scss/girder_modules/_girder_utilities.scss */
+.left {
+  float: left;
+  margin-right: .8em;
+}
+
+/* line 94, ../../../bower_components/girder/scss/girder_modules/_girder_utilities.scss */
+.right {
+  float: right;
+  margin-left: .8em;
+}
+
+/* line 95, ../../../bower_components/girder/scss/girder_modules/_girder_utilities.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 98, ../../../bower_components/girder/scss/girder_modules/_girder_utilities.scss */
+.text-left {
+  text-align: left !important;
+}
+
+/* line 98, ../../../bower_components/girder/scss/girder_modules/_girder_utilities.scss */
+.text-right {
+  text-align: right !important;
+}
+
+/* line 98, ../../../bower_components/girder/scss/girder_modules/_girder_utilities.scss */
+.text-center {
+  text-align: center !important;
+}
+
+/* line 98, ../../../bower_components/girder/scss/girder_modules/_girder_utilities.scss */
+.text-justify {
+  text-align: justify !important;
+}
+
+@media (min-width: 10em) and (max-width: 35.5em) {
+  /* line 33, ../../../bower_components/girder/scss/girder_modules/_girder_responsive.scss */
+  .row.equal-units > :first-of-type {
+    padding-left: 0 !important;
+  }
+  /* line 34, ../../../bower_components/girder/scss/girder_modules/_girder_responsive.scss */
+  .row.equal-units > :last-child {
+    padding-right: 0 !important;
+  }
+}
+/* line 54, ../../../bower_components/girder/scss/girder_modules/_girder_responsive.scss */
+.center-small {
+  text-align: inherit;
+}
+@media (min-width: 10em) and (max-width: 35.5em) {
+  /* line 54, ../../../bower_components/girder/scss/girder_modules/_girder_responsive.scss */
+  .center-small {
+    text-align: center;
+  }
+}
+
+/* line 67, ../../../bower_components/girder/scss/girder_modules/_girder_responsive.scss */
+.hide-small {
+  display: block;
+}
+@media (min-width: 10em) and (max-width: 35.5em) {
+  /* line 67, ../../../bower_components/girder/scss/girder_modules/_girder_responsive.scss */
+  .hide-small {
+    display: none;
+  }
+}
+
+/* line 9, ../../../app/assets/styles/main.scss */
 body {
   background: #111111;
   color: #e5e5e5;
 }
 
-/* line 15, ../../../app/assets/styles/main.scss */
+/* line 16, ../../../app/assets/styles/main.scss */
 .site-header {
   padding: 20px 10px 10px;
   position: relative;
 }
-/* line 19, ../../../app/assets/styles/main.scss */
+/* line 20, ../../../app/assets/styles/main.scss */
 .site-header h1 {
   padding-top: 10px;
 }
-/* line 23, ../../../app/assets/styles/main.scss */
+/* line 24, ../../../app/assets/styles/main.scss */
 .site-header .logo {
   width: 140px;
   height: 140px;
 }
-/* line 28, ../../../app/assets/styles/main.scss */
+/* line 29, ../../../app/assets/styles/main.scss */
 .site-header .burger {
   position: absolute;
   top: 10px;
   left: 10px;
 }
-/* line 33, ../../../app/assets/styles/main.scss */
+/* line 34, ../../../app/assets/styles/main.scss */
 .site-header .burger a {
   display: inline-block;
   width: 30px;
   height: 30px;
 }
-/* line 39, ../../../app/assets/styles/main.scss */
+/* line 40, ../../../app/assets/styles/main.scss */
 .site-header .burger #open-menu {
   background: pink;
 }
-/* line 43, ../../../app/assets/styles/main.scss */
+/* line 44, ../../../app/assets/styles/main.scss */
 .site-header .burger #close-menu {
   background: yellow;
 }
 
-/* line 49, ../../../app/assets/styles/main.scss */
+/* line 50, ../../../app/assets/styles/main.scss */
 .content {
   border-top: 1px solid #666666;
   border-bottom: 1px solid #666666;
   font-size: 130%;
   padding: 20px 10px 10px;
 }
-/* line 56, ../../../app/assets/styles/main.scss */
+/* line 57, ../../../app/assets/styles/main.scss */
 .content a:link,
 .content a:visited {
   color: yellowgreen;
 }
-/* line 60, ../../../app/assets/styles/main.scss */
+/* line 61, ../../../app/assets/styles/main.scss */
 .content a:hover {
   color: #7ba428;
 }
-/* line 64, ../../../app/assets/styles/main.scss */
+/* line 65, ../../../app/assets/styles/main.scss */
 .content a:active {
   color: #c2e184;
 }
 
-/* line 69, ../../../app/assets/styles/main.scss */
+/* line 70, ../../../app/assets/styles/main.scss */
 .site-footer {
   color: #b2b2b2;
   padding: 10px 10px 20px;
