@@ -1,67 +1,100 @@
-/* line 8, ../../../app/assets/styles/main.scss */
+/* ========================================== */
+/*                 Picky styles               */
+/* ========================================== */
+/* line 14, ../../../app/assets/styles/main.scss */
 body {
-  background: #111111;
-  color: #e5e5e5;
+  background: #eeeeee;
+  color: #444444;
 }
 
-/* line 15, ../../../app/assets/styles/main.scss */
+/* line 21, ../../../app/assets/styles/main.scss */
 .site-header {
   padding: 20px 10px 10px;
   position: relative;
 }
-/* line 19, ../../../app/assets/styles/main.scss */
+/* line 25, ../../../app/assets/styles/main.scss */
 .site-header h1 {
+  color: #373737;
+  font-size: 3em;
+  margin: 10px 0;
   padding-top: 10px;
 }
-/* line 23, ../../../app/assets/styles/main.scss */
+/* line 32, ../../../app/assets/styles/main.scss */
 .site-header .logo {
   width: 140px;
   height: 140px;
 }
-/* line 28, ../../../app/assets/styles/main.scss */
+/* line 37, ../../../app/assets/styles/main.scss */
 .site-header .burger {
   position: absolute;
   top: 10px;
   left: 10px;
 }
-/* line 33, ../../../app/assets/styles/main.scss */
+/* line 42, ../../../app/assets/styles/main.scss */
 .site-header .burger a {
+  color: #2663cd;
+  font-size: 2em;
   display: inline-block;
   width: 30px;
   height: 30px;
+  text-decoration: none;
 }
-/* line 39, ../../../app/assets/styles/main.scss */
+/* line 51, ../../../app/assets/styles/main.scss */
 .site-header .burger #open-menu {
-  background: pink;
+  color: #2663cd;
 }
-/* line 43, ../../../app/assets/styles/main.scss */
+/* line 53, ../../../app/assets/styles/main.scss */
+.site-header .burger #open-menu:hover {
+  color: #749de5;
+}
+/* line 58, ../../../app/assets/styles/main.scss */
 .site-header .burger #close-menu {
-  background: yellow;
-}
-
-/* line 49, ../../../app/assets/styles/main.scss */
-.content {
-  border-top: 1px solid #666666;
-  border-bottom: 1px solid #666666;
-  font-size: 130%;
-  padding: 20px 10px 10px;
-}
-/* line 56, ../../../app/assets/styles/main.scss */
-.content a:link,
-.content a:visited {
-  color: yellowgreen;
+  color: #749de5;
 }
 /* line 60, ../../../app/assets/styles/main.scss */
-.content a:hover {
-  color: #7ba428;
-}
-/* line 64, ../../../app/assets/styles/main.scss */
-.content a:active {
-  color: #c2e184;
+.site-header .burger #close-menu:hover {
+  color: #497fdd;
 }
 
-/* line 69, ../../../app/assets/styles/main.scss */
+/* line 68, ../../../app/assets/styles/main.scss */
+.site-menu a {
+  font-size: 1.3em;
+}
+
+/* line 73, ../../../app/assets/styles/main.scss */
+.site-content {
+  border-top: 1px solid #777777;
+  border-bottom: 1px solid #777777;
+  font-size: 1.3em;
+  padding: 20px 10px 10px;
+}
+/* line 79, ../../../app/assets/styles/main.scss */
+.site-content h2, .site-content h3 {
+  color: #373737;
+  margin-top: 0;
+}
+/* line 85, ../../../app/assets/styles/main.scss */
+.site-content a:link,
+.site-content a:visited {
+  color: #2663cd;
+}
+/* line 89, ../../../app/assets/styles/main.scss */
+.site-content a:hover {
+  color: #1e4ea2;
+}
+/* line 93, ../../../app/assets/styles/main.scss */
+.site-content a:active {
+  color: #749de5;
+}
+
+/* line 98, ../../../app/assets/styles/main.scss */
+.site-asides {
+  background: yellow;
+  padding-top: 400px;
+}
+
+/* line 103, ../../../app/assets/styles/main.scss */
 .site-footer {
-  color: #b2b2b2;
+  color: #777777;
   padding: 10px 10px 20px;
 }
